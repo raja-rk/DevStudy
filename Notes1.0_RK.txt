@@ -1,0 +1,6 @@
+1. Install Java SE 17
+-https://www.oracle.com/in/java/technologies/downloads/#jdk17-windows
+-Locate java 17's Bin folder in local PC and put its path into environtment variables(C-->Program files-->java-->java-17-->Bin)
+
+2. Install VS Code
+https://code.visualstudio.com/download

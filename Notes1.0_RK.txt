@@ -4,3 +4,14 @@
 
 2. Install VS Code
 https://code.visualstudio.com/download
+
+3. Extension: Extension Pack For Java
+
+Running Java Code:-
+1. JShell: JShell, or Java Shell, is an interactive tool that helps people learn Java programming and prototype Java code.
+    No need for javac: JShell reads source code and runs it on the fly.
+
+2. Java is patform indepedent as it will run in any machine that have JVM installed on it.
+    Running java code requires "JVM".
+
+    Java High Level Language Code(.java) --> Java Compiler(javac) --> Byte code (Low Level Language Code)(.class) --> JVM(run the code)  

@@ -18,5 +18,28 @@ Running Java Code:-
     --> Byte code (Low Level Language Code)(.class) --> JDK: [JVM(run the code) + JRE(contains libraries)]
 
 Data Types:-
-Int
-String
+int -> byte, short, int , long
+float -> double, float
+char
+boolean
+
+Int - 4Bytes
+Long - 8Bytes
+short - 2Bytes
+byte - 1Bytes (-2^7 - 2^7-1)
+Float - 4Bytes
+double - 8Bytes (by default point values are double in java)
+char - 2Bytes
+    Java use 'Unicode' instead of 'ascii' to store characters in memory
+Boolean - 1bit - t/f
+
+Opertors
+Conditional statements
+Switch case statement
+break statement
+loops - while, for , do while
+
+
+
+
+

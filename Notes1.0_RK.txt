@@ -39,7 +39,10 @@ Switch case statement
 break statement
 loops - while, for , do while
 
+Object oriented programming:-
+Method overloading - multiple function with same name within one class
 
-
+**In Java, memory is divided into two main areas: the stack and the heap. The stack is a fixed-size memory area that is used to store local variables and function calls. 
+**The heap is a dynamic memory area that is used to store objects and class instances. 
 
 

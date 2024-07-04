@@ -41,8 +41,21 @@ loops - while, for , do while
 
 Object oriented programming:-
 Method overloading - multiple function with same name within one class
+Encapsulation - preventing outside world to access the feature of a perticular class, (can be done using private keyword for the properties that u want to encapsulate and use getter and and seeter functions to access them.)
 
 **In Java, memory is divided into two main areas: the stack and the heap. The stack is a fixed-size memory area that is used to store local variables and function calls. 
 **The heap is a dynamic memory area that is used to store objects and class instances. 
 **In Java, a class without an access modifier is considered package-private. This means that it is only accessible to other classes within the same package. It is less restrictive than private but more restrictive than protected and public.
-
+**strings are allocated memory in heap in string contant pool
+**length and capacity are two different fucntions , capacity = length + 16
+**The main difference between the two methods is that append() adds a new element to the end of a list, while concat() combines two strings together.
+**in java class loads first and then its objects get instantiated
+**java class loads on object creation automatically but we can load it without creating any object using "Class.forName("className to load")";
+** by default each constructor have super() method that runs first when constructor code run;
+**every class in java extends a Object class (by default)
+**this() calls consturctor of same class
+**Objects with no name are called anonymous object (ex: new C();)
+**multiple inheritance is not supported in java(diamond problem)
+**package in java - create a folder that have the classes that u want to put into the package, to access classes of package out of the package u have to use import statement to import the class from the package first and the use it.
+**every java file by default imports java.lang package.
+**In Java, a single .java file can contain multiple classes, but only one public class. This is a convention followed by the Java compiler (javac) and the Java Virtual Machine (JVM)

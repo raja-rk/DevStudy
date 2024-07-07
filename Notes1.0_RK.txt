@@ -59,3 +59,13 @@ Encapsulation - preventing outside world to access the feature of a perticular c
 **package in java - create a folder that have the classes that u want to put into the package, to access classes of package out of the package u have to use import statement to import the class from the package first and the use it.
 **every java file by default imports java.lang package.
 **In Java, a single .java file can contain multiple classes, but only one public class. This is a convention followed by the Java compiler (javac) and the Java Virtual Machine (JVM)
+
+Access Modifiers:-
+-public 
+-private
+-protected
+-default (private protected) - the variables and methods are accessed within the same package only
+
+**by default java vaiables and method have default as access modifier
+
+dynamic method dispatch - runtime polymorphism

@@ -46,7 +46,7 @@ Encapsulation - preventing outside world to access the feature of a perticular c
 **In Java, memory is divided into two main areas: the stack and the heap. The stack is a fixed-size memory area that is used to store local variables and function calls. 
 **The heap is a dynamic memory area that is used to store objects and class instances. 
 **In Java, a class without an access modifier is considered package-private. This means that it is only accessible to other classes within the same package. It is less restrictive than private but more restrictive than protected and public.
-**strings are allocated memory in heap in string contant pool
+**strings are allocated memory in heap in string constant pool
 **length and capacity are two different fucntions , capacity = length + 16
 **The main difference between the two methods is that append() adds a new element to the end of a list, while concat() combines two strings together.
 **in java class loads first and then its objects get instantiated
@@ -59,6 +59,7 @@ Encapsulation - preventing outside world to access the feature of a perticular c
 **package in java - create a folder that have the classes that u want to put into the package, to access classes of package out of the package u have to use import statement to import the class from the package first and the use it.
 **every java file by default imports java.lang package.
 **In Java, a single .java file can contain multiple classes, but only one public class. This is a convention followed by the Java compiler (javac) and the Java Virtual Machine (JVM)
+**final class cannot be extended
 
 Access Modifiers:-
 -public 
@@ -66,6 +67,37 @@ Access Modifiers:-
 -protected
 -default (private protected) - the variables and methods are accessed within the same package only
 
-**by default java vaiables and method have default as access modifier
+**by default java variables and method have 'default' as access modifier
 
 dynamic method dispatch - runtime polymorphism
+downcasting and upcasting - typecasting
+
+wrapper class
+boxing - In Java, boxing is the process of converting a primitive data type into its corresponding wrapper class object.
+unboxing - In Java, unboxing is the process of converting a wrapper class object into its corresponding primitive data type.
+
+abstract keyword-
+abstract method can only belong to abstract class
+we can't create object of abstract class
+abstract method cannot be static 
+overiding static method is not possible
+innerclass can be static but outer class cannot be static
+by default all methods in interface are public abstract
+all the variables in interface are by default final and static
+interface do not have memory allocation, the calss that implement interface are allocated memory for interface
+a class can implement multiple interfaces but like only one class can be extended from another class
+
+annotations - are the indicators the tells compiler to handle something accordingly.
+@oveerride - indicates that the function is a overiden function.
+@Deprecated - indicates that the class is Deprecated you should avoid using it.
+@supresswaring - to hide the warnings
+@FunctionalInterface
+etc....
+
+
+interfaces:
+1. normal
+2. functional - only contains one method
+3. Marker - it do not have any method or variables, it is empty, (used for serialization and deserialization of code)
+
+lamda expression

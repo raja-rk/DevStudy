@@ -107,7 +107,7 @@ println is a fucntion of PrintStream class
 out is a object of PrintStream class and it is declared in system class and it is static
 
 
-thread stated:
+thread states:
 1. new 
 2. runnable
 3. Running
@@ -127,3 +127,6 @@ the variable declared with var requires initializer always.
 abstract classes are meant to be inherited
 final classes cannot be inherited
 sealed classes can be iherited by perticular set of classes only
+
+
+JDBC

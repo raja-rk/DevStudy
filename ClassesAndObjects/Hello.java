@@ -45,6 +45,16 @@ class implementAbstractMethod extends test3{
     }
     
 }
+
+sealed class sealedClass permits B,C{
+
+}
+final class B extends sealedClass{
+
+}
+non-sealed class C extends sealedClass{
+
+}
 public class Hello{
     public static void main(String a[]) throws ClassNotFoundException{
         Class temp = Class.forName("Basics");//load a class without any object instantiation

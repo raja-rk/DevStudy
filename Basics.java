@@ -1,4 +1,5 @@
 import ClassesAndObjects.*;
+import java.util.Scanner;
 
 public class Basics {
     public static void main(String a[]){
@@ -54,5 +55,10 @@ public class Basics {
 
         //packages
         Hello t = new Hello();
+
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        System.out.println(num);
+
     }
 }

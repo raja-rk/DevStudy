@@ -101,3 +101,29 @@ interfaces:
 3. Marker - it do not have any method or variables, it is empty, (used for serialization and deserialization of code)
 
 lamda expression
+
+system.out.println()
+println is a fucntion of PrintStream class 
+out is a object of PrintStream class and it is declared in system class and it is static
+
+
+thread stated:
+1. new 
+2. runnable
+3. Running
+4. waiting
+5. dead
+
+
+collection in java:-
+collection API -> concept
+collection -> interface
+colections -> class
+
+LVTI - local variable type inference
+'var' keyword insted of using data type
+the variable declared with var requires initializer always.
+
+abstract classes are meant to be inherited
+final classes cannot be inherited
+sealed classes can be iherited by perticular set of classes only

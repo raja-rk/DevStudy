@@ -129,4 +129,4 @@ final classes cannot be inherited
 sealed classes can be iherited by perticular set of classes only
 
 
-JDBC
+JDBC:-
